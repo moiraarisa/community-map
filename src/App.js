@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import MapView from './Map';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
      
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload, Zeze!
+          community map
         </p>
         <a
           className="App-link"
@@ -18,8 +18,11 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
-        <MapView></MapView>
+        
       </header>
+      <div>
+        <MapView></MapView>
+      </div>
     </div>
   );
 }
